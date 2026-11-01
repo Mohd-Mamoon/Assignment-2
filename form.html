@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel|Form</title>
+</head>
+<body>
+    <h1>Invertis University </h1>
+    <h2>Hostel Accomodation Form</h2>
+    <form action="#" method="post">
+        <!-- personal data -->
+         <fieldset>
+            <legend><h3>Personal Data</h3></legend>
+
+
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required placeholder="Jay"><br><br>
+
+        <label for="dob">Enter your date of birth:</label>
+        <input type="date" id="dob" name="dob" required ><br><br>
+
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age" name="age" required placeholder="20" max="50" min="15"><br><br>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required placeholder="abc@xyz.com"><br><br>    
+
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="8765432109" pattern="[0-9]"><br><br>
+
+        <label for="address">Enter your address:</label>
+        <input type="text" id="address" name="address" required placeholder="Enter your address"><br><br>
+
+        <label for="gender">Select your gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="nationality">Select your nationality:</label>
+        <select id="nationality" name="nationality" required>
+            <option value="">--Select your nationality--</option>
+            <option value="Indian">Indian</option>
+            <option value="Other">Other</option>
+
+        </select><br><br>
+
+        <label for="state">Select your state:</label>
+        <select id="state" name="state" required>
+            <option value="">--Select your state--</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Bihar">Bihar</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Assam">Assam</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Delhi">Delhi</option>
+        </select><br><br>
+
+        <label for="Home Location url ">Paste your home location URL:</label>
+        <input type="url" id="Home Location url " name="Home Location url " required placeholder="https://example.com"><br><br>
+
+         </fieldset>
+
+         <!-- academic data -->
+         <fieldset>
+            <legend><h3>Academic Data</h3></legend>
+
+        <label for="course">Select your course:</label>
+        <select id="course" name="course" required>
+            <option value="">--Select your course--</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="BBA">BBA</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="M.Sc">M.Sc</option>
+            <option value="B.Com">B.Com</option>
+            <option value="M.Com">M.Com</option>
+            <option value="B.A">B.A</option>
+            <option value="M.A">M.A</option>
+            <option value="B.Ed">B.Ed</option>
+            <option value="M.Ed">M.Ed</option>
+            <option value="Ph.D">Ph.D</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="year">Select your year:</label>
+        <select id="year" name="year" required>
+            <option value="">--Select your year--</option>
+            <option value="1st Year">1st Year</option>
+            <option value="2nd Year">2nd Year</option>
+            <option value="3rd Year">3rd Year</option>
+            <option value="4th Year">4th Year</option>
+            <option value="5th Year">5th Year</option>
+        </select><br><br>
+
+        <label for="rollno">Enter your Student ID:</label>
+        <input type="text" id="rollno" name="rollno" required placeholder="ABC20XXXXX"><br><br>
+
+         </fieldset>
+
+         <!-- hostel requirements -->
+            <fieldset>
+                <legend><h3>Hostel Requirements</h3></legend>
+
+        <label for="hostel">Select your hostel:</label>
+        <select id="hostel" name="hostel" required>
+            <option value="">--Select your hostel--</option>
+            <option value="Boys Hostel">Boys Hostel</option>
+            <option value="Girls Hostel">Girls Hostel</option>
+        </select><br><br>
+
+        <label for="roomtype">Select your room type:</label>
+        <select id="roomtype" name="roomtype" required>
+            <option value="">--Select your room type--</option>
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="Triple">Triple</option>
+
+        </select><br><br>
+
+        <label for="join">Date of Joining:</label>
+        <input type="date" id="join" name="join" required><br><br>
+
+        <label for="time">Reporting time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <label for="budget">budget:</label>
+        <input type="number" id="budget" name="budget" required placeholder="Enter your budget" min="60000" max="150000"><br><br>
+
+        <label for="food">Select your food preference:</label>
+        <select id="food" name="food" required>
+            <option value="">--Select your food preference--</option>
+            <option value="Veg">North-Indian</option>
+            <option value="Non-Veg">South-Indian</option>
+            <option value="Vegan">Other</option>
+            
+        </select><br><br>
+
+        <label for="facilities">Any special facilities required:</label>
+        <textarea id="facilities" name="facilities" rows="4" cols="50" placeholder="Enter any special facilities required"></textarea><br><br>
+
+
+    </fieldset>
+
+    
+
+    <!-- additional fields can be added here -->
+
+    <fieldset>
+        <legend><h3>Additional Information</h3></legend>
+
+    <label for="photo">Upload your photo:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+    <label for="signature">Upload your signature:</label>
+    <input type="file" id="signature" name="signature" accept="image/*" required><br><br>
+
+    </fieldset>
+    <br><br>
+
+    <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; cursor: pointer;">Submit</button>  
+    <button type="reset" style="background-color: #f44336; color: white; padding: 10px 20px; cursor: pointer;">Reset</button>
+
+    </form>
+</body>
+</html>
